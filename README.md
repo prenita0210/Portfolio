@@ -1,4 +1,4 @@
-# 🎨 **SOHEL SAYYED Portfolio**
+# 🎨 **Prenita Darshani Portfolio**
 
 ## **Overview**
 📂 **Portfolio Website** built using **HTML, CSS, JS**.
@@ -38,7 +38,7 @@
 ## **📬 Contact**
 Feel free to reach out to me through the following platforms:
 
-📸 [**Instagram**](https://www.instagram.com/sohel_sayyed.dev/)
+
 
 <h2>☕️ Coffee? yes!</h2>
 <p>
