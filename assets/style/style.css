@@ -7,11 +7,11 @@
   --font-size-heading: 2rem; /* Heading 1 (32px) */
   --font-size-display: 4rem; /* Large text for hero sections (48px) */
   /* Colors */
-  --color-text: #fff;
-  --color-text-gray: #d0d0d0;
-  --color-background: #13071f;
-  --color-primary: #9900ff;
-  --color-highlight: #9900ff5f;
+  --color-text: black;
+  --color-text-gray: black;
+  --color-background: white;
+  --color-primary: black;
+  --color-highlight: black;
 }
 
 h1 {
@@ -63,7 +63,7 @@ button {
 
 html,
 body {
-  background-color: var(--color-background);
+  /*background-color: var(--color-background);*/
   color: var(--color-text);
   font-size: var(--font-size-body);
   overflow-x: hidden;
@@ -443,74 +443,3 @@ footer #contact-section #copyright a {
 /*--------------------------------------------------------------
   # Footer -> Theme Button
   --------------------------------------------------------------*/
-footer #setting-card {
-  height: 150px;
-  width: 150px;
-  background-color: var(--color-background);
-  outline: 1px solid var(--color-primary);
-  border-radius: 8px;
-  position: fixed;
-  right: 50px;
-  bottom: 24px;
-  display: grid;
-  justify-content: center;
-  align-items: center;
-  transition: opacity 0.5s ease, transform 0.5s ease; /* Animation settings */
-  opacity: 1;
-  transform: scale(1);
-}
-footer #setting-card div {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  gap: 8px;
-}
-footer #setting-card span {
-  background-color: var(--color-primary);
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  outline: 1px solid var(--color-primary);
-  cursor: pointer;
-}
-footer #setting-card div:nth-child(1) span:nth-child(1) {
-  background: conic-gradient(#13071f 50%, #9900ff 50%); /* Two colors */
-}
-footer #setting-card div:nth-child(1) span:nth-child(2) {
-  background: conic-gradient(#1C1C1E 50%, #FF6F61 50%); /* Two colors */
-}
-footer #setting-card div:nth-child(2) span:nth-child(1) {
-  background: conic-gradient(#001F3F 50%, #00BFFF 50%); /* Two colors */
-}
-footer #setting-card div:nth-child(2) span:nth-child(2) {
-  background: conic-gradient(#000000 50%, #800080 50%); /* Two colors */
-}
-footer #settings-button {
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
-  position: fixed;
-  right: 12px;
-  bottom: 12px;
-  display: flex;
-  justify-content: center;
-  outline: 2px solid var(--color-text);
-  align-items: center;
-  cursor: pointer;
-  background-color: var(--color-background);
-  transition: all 0.7s;
-}
-footer #settings-button:hover {
-  outline: 2px solid var(--color-primary);
-}
-
-.hide-card {
-  opacity: 0 !important;
-  transform: scale(0.5) !important; /* Shrinks the box */
-  pointer-events: none !important; /* Prevents interactions when hidden */
-}
-
-/*# sourceMappingURL=style.css.map */
