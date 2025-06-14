@@ -23,10 +23,7 @@ function initThemeButtonEvent() {
   spans.forEach((span, index) => {
     span.addEventListener("click", () => {
       switch (index) {
-        case 0: {
-          setTheme("#13071f", "#9900ff", "#9900ff5f");
-          break;
-        }
+        
         case 1: {
           setTheme("#1C1C1E", "#FF6F61", "#FF6F615f");
           break;
