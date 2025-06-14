@@ -5,11 +5,8 @@ const cursorSpan = document.querySelector("#cursor");
 
 const texts = [
   "Web Designer",
-  "Video Editor",
-  "Blogger",
-  "Content Writer",
-  "Android Developer",
-  "YouTuber",
+  "Angular Developer",
+  "Fron-End Developer",
 ];
 
 const typingDelay = 200;
