@@ -1,31 +1,24 @@
 const ProjectsData = [
   {
-    name: "Mcodo :Learn Coding with AI",
+    name: "ServCorp",
     logo: "https://play-lh.googleusercontent.com/au3QvRNWZiRamIYLRb0irFPno-xuzSJDzrL1Te0vGx7889ROiOp3Sr7dIByGomFDJpbX=w480-h960-rw",
     description:
-      "Powerful code compiler, AI chat assistant, interactive coding quizzes, and chapter-based learning resources.",
+      "Developed responsive web interfaces using Angular for office space booking and IT service management. Built reusable UI components using Angular Material and Bootstrap. Collaborated via Git/GitLab, and contributed to continuous integration efforts.",
     link: "https://play.google.com/store/apps/details?id=com.sohezsoft.mcodo&hl=en_IN",
   },
   {
-    name: "Student Portal App",
+    name: "Utility Apps",
     logo: "https://cdn-icons-png.flaticon.com/128/14664/14664511.png",
     description:
-      "Student Portal App, build using kotlin.",
+      "I proactively contributed to front-end development tasks within internal projects and team initiatives. My focus was on creating user-friendly interfaces and improving the visual structure of web-based tools using HTML, CSS, and JavaScript..",
     link: "https://github.com/sohez/StudentPortalApp",
   },
   {
-    name: "M.P.C",
+    name: "Calculator",
     logo: "https://cdn-icons-png.flaticon.com/128/1011/1011812.png",
     description:
       "powerful and easy-to-use solution for calculating academic performance. Built with HTML, CSS, JavaScript, html2canvas, and jsPDF.",
     link: "https://sohez.github.io/Marks-Percentage-Calculator/",
-  },
-  {
-    name: "PHP Registration full API",
-    logo: "https://cdn-icons-png.flaticon.com/128/17335/17335144.png",
-    description:
-      "Registration full API PHP and MySql.",
-    link: "https://github.com/sohez/PHP-Projects",
   },
   {
     name: "Tic-Tac-Toe",
@@ -34,13 +27,6 @@ const ProjectsData = [
       "play against a bot using the Minimax algorithm or with a friend. This game is built with HTML, CSS, and JS.",
     link: "https://sohez.github.io/tic-tac-toe/",
   },
-  {
-    name: "AI Chat",
-    logo: "https://cdn-icons-png.flaticon.com/128/6873/6873405.png",
-    description:
-      "Gemini AI chat bot, this is built with HTML, CSS, and JS.",
-    link: "https://github.com/sohez/ai-chat",
-  }
 ];
 
 const ProjectsDataHTML = ProjectsData.map(
@@ -49,7 +35,7 @@ const ProjectsDataHTML = ProjectsData.map(
               <img loading="lazy" src="${item.logo}" alt="${item.name}">
               <h3>${item.name}</h3>
               <p>${item.description}</p>
-              <a href="${item.link}" title="${item.name}" target="_blank">View</a>
+              
           </div>
       `
 ).join("");
